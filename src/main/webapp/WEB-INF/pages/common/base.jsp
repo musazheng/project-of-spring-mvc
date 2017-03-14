@@ -12,8 +12,5 @@ var nowDate = new Date();
 <%@include file="taglib.jsp"%>
 <%@include file="jquery.jsp"%>
 <body>
-<form method="post" id="exportNoPageForm">
-    <input type="hidden" id="exportdata" name="exportdata"/>
-</form>
 </body>
 </html>
