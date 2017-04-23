@@ -11,7 +11,6 @@ http://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-    <mvc:annotation-drive></mvc:annotation-drive>
     <!--设置注解类所在的包-->
     <context:component-scan base-package="com.zd.controller"></context:component-scan>
 

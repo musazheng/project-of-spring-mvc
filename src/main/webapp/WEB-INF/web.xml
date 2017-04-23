@@ -6,7 +6,7 @@
          version="3.0">
 <!--welcome pages-->
 <welcome-file-list>
-  <welcome-file>index.jsp</welcome-file>
+  <welcome-file>pages/user/registeUser.jsp</welcome-file>
 </welcome-file-list>
   <error-page>
     <error-code>404</error-code>
@@ -21,10 +21,10 @@
   <!--配置Spring-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
+    <param-value>classpath:spring-*.xml</param-value>
   </context-param>
   <listener>
-    <listenerclass>org.springframework.web.context.ContextLoaderListener</listener-class>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
   <!--配置spring-mvc-->
